@@ -1,0 +1,261 @@
+body{ margin:0; padding:0; box-szing:border-box; background:#F1F1F1;}
+h1, h2, h3, h4, h5, h6, p, input, textarea{ margin:0; padding:0;}
+a{ text-decoration:none; outline:none;}
+img{ max-width:100%;}
+
+.clr{ clear:both;}
+
+.wrapper{ padding:6vh 0}
+
+.login-options {
+	color: #9c9c9c;
+	float: left;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    width: 100%;
+	text-align: center;
+}
+
+.twitter {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+	width: 160px;
+	height:40px;
+	padding-top: 10px;
+    border: 0px solid #178bb6;
+    border-radius: 8px;
+    background: #992828;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1daee3), to(#1daee3));
+    background: -moz-linear-gradient(top, #1daee3, #1daee3);
+    background: linear-gradient(to bottom, #1daee3, #1daee3);
+    font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+    color: #ffffff;
+    text-decoration: none;
+	margin-right: 10px;
+}
+.twitter:hover,
+.twitter:focus {
+    background: #1ca4d6;
+    color: #ffffff;
+    text-decoration: none;
+}
+.twitter:active {
+    background: #1ca4d6;
+}
+.twitter:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 50px;
+    width: 45px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+	padding-left: 10px;
+    top: -10px;
+    left: -21px;
+   /*  background: url("http://i.imgur.com/2ATElSK.png") no-repeat center center #1ca4d6; */
+    background-size: 29px 24px;
+	-webkit-border-radius: 8px 0px 0px 8px;
+	-moz-border-radius: 8px 0px 0px 8px;
+	-o-border-radius: 8px 0px 0px 8px;
+	-ms-border-radius: 8px 0px 0px 8px;
+	border-radius: 8px 0px 0px 8px;
+}
+.facebook {
+    background: hsl(221, 44%, 41%) none repeat scroll 0 0;
+    border: 0 solid hsl(196, 78%, 40%);
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 400;
+    height: 52px;
+    line-height: 48px;
+    padding-bottom: 0;
+    padding-left: 70px;
+    padding-right: 40px;
+    text-align: center;
+    text-decoration: none;
+	position:relative;
+}
+.facebook:hover,
+.facebook:focus {
+    background: #37528c;
+    color: #ffffff;
+    text-decoration: none;
+}
+.facebook:active {
+    background: #1ca4d6;
+}
+.facebook:before{
+    content:  "\0000a0";
+    background: hsl(221, 44%, 38%) url("../images/facebook.png") no-repeat scroll center center / 13px 24px;
+	display: inline-block;
+    height: 50px;
+    left: 0;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 20px;
+    position: absolute;
+    top: 1px;
+	-webkit-border-radius: 8px 0px 0px 8px;
+	-moz-border-radius: 8px 0px 0px 8px;
+	-o-border-radius: 8px 0px 0px 8px;
+	-ms-border-radius: 8px 0px 0px 8px;
+	border-radius: 8px 0px 0px 8px;
+}
+.google {
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 400;
+    height: 52px;
+    line-height: 48px;
+    padding-bottom: 0;
+    padding-left: 70px;
+    padding-right: 40px;
+    text-align: center;
+    text-decoration: none;
+    background: #d34836;
+	position:relative;
+   
+}
+.google:hover,
+.google:focus {
+    background: #c74534;
+    color: #ffffff;
+    text-decoration: none;
+}
+.google:active {
+    background: #1ca4d6;
+}
+.google:before{
+    content:  "\0000a0";
+    background: url("../images/google.png") no-repeat center center #c74534;
+	display: inline-block;
+    height: 50px;
+    left: 0;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 20px;
+    position: absolute;
+    top: 1px;
+	-webkit-border-radius: 8px 0px 0px 8px;
+	-moz-border-radius: 8px 0px 0px 8px;
+	-o-border-radius: 8px 0px 0px 8px;
+	-ms-border-radius: 8px 0px 0px 8px;
+	border-radius: 8px 0px 0px 8px;
+}
+
+.clr hr {
+	border: 1px solid #e9e9e9;
+	margin:25px 0;
+}
+.mail-text {
+	color: #777;
+}
+
+/*--- Home page CSS Start here */
+.home-slider.callbacks_container.col-lg-8 {
+    float: none;
+    margin: 0 auto;
+}
+
+/*--- Home page CSS End  here */
+
+/*--- Profile page CSS Start  here */
+
+
+span.form-label {
+    float: left;
+    font-weight: bold;
+    margin: 3px 0 15px;
+    width: 100%;
+}
+.join {
+    font-size: 30px;
+    text-align: center;
+	padding-bottom:5vh;
+}
+
+ul.tab { margin: 0 0 5vh 0; padding:0 0 15px 0; border-bottom:solid 2px #d2d2d2;}
+ul.tab li { padding:0 15px; font-size:18px; list-style:none; display:inline-block; position:relative;}
+ul.tab li.active::before { position:absolute; left:0; width:100%; height:4px; background:hsl(2, 64%, 58%); bottom:-16px; content:"";}
+.tab a {
+    color: hsl(0, 0%, 47%);
+}
+
+.tab a:hover{ text-decoration:none;}
+
+.tab .active a {
+    color:hsl(2, 64%, 58%);
+}
+.username {
+    padding: 23px 0 10px 18px;
+    width: 100%;
+}
+#user_img {
+    visibility: hidden;
+	position:absolute;
+}
+.ab img{-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.row-exp.col-lg-12 {
+    margin: 15px 0;
+}
+.callbacks{ max-width:100%!important;}
+.sm-title{ padding-bottom:5vh; color: hsl(0, 0%, 47%);}
+
+.s_con{ border:solid 1px #d2d2d2; background:#f1f1f1; padding:4vh 15px;}
+.success-msg {color: hsl(120, 100%, 25%); font-size: 16px; font-weight: bold;}
+.dashborad-header {
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+/*.tab li:first-child {margin: 0;}*/
+
+
+.inner h3{ padding-bottom:4vh;}
+h4.form-label{ padding-bottom:3vh;}
+.mg_btm{ padding-bottom:3vh;}
+.datepicker{ padding:0!important;}
+.add-payment {
+    margin-top: 20px;
+}
+.mob_mg{ padding-bottom:15px;}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.td-label {
+    font-weight: bold;
+}
+#profile_image {
+  border: 1px solid hsl(0, 0%, 87%);
+  border-radius: 4px;
+}
+.col-sm-12.classinfo {
+    margin-top: 25px;
+}
+/*--- Instructor Dashboard page CSS End here */
+
+@media (max-width: 767px) {
+.signup-button, .facebook {
+    margin: 0 0 15px;
+}
+ul.tab li.active::before{ bottom:-4px;}
+ul.tab li{ display:block; margin: 0 0 9px; padding: 3px 0;}
+.row-exp input,.row-exp .datepicker, .row-edu input, .row-edu .datepicker{ margin-bottom:15px;}
+
+	
+
+}
